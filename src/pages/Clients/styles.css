@@ -1,0 +1,35 @@
+table {
+  width: 1280px;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+  th {
+    background-color: mediumpurple;
+    text-align: left;
+    color: black;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  tr th:first-child {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  td {
+    border-bottom: 1px solid;
+    border-color: mediumpurple;
+    text-align: left;
+  }
+
+  tr td:first-child {
+    border-left:2px solid;
+    border-color: mediumpurple;
+    }
+
+  tr td:last-child {
+    border-right:2px solid;
+    border-color: mediumpurple;
+    }
+
