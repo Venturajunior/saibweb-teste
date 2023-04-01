@@ -50,7 +50,7 @@ export function ClientsProvider({ children }) {
         if (onSuccess) onSuccess()
       } catch (error) {
         setLoading(false)
-      } 
+      }
     },
     [],
   )
@@ -63,7 +63,7 @@ export function ClientsProvider({ children }) {
       return response.data.data[0]
     } catch (error) {
       return false
-    } finally {      
+    } finally {
       setLoading(false)
     }
   },
@@ -89,7 +89,7 @@ export function ClientsProvider({ children }) {
         if (onSuccess) onSuccess()
       } catch (error) {
         setLoading(false)
-      } 
+      }
     },
     [],
   )
@@ -101,13 +101,13 @@ export function ClientsProvider({ children }) {
 
   return (
     <ClientsContext.Provider
-    value={{
-      clientList,
-      deleteCLient,
-      createClient,
-      getClientById,
-      updateClientById,
-      loading,
+      value={{
+        clientList,
+        deleteCLient,
+        createClient,
+        getClientById,
+        updateClientById,
+        loading,
       }}>
       {children}
     </ClientsContext.Provider>

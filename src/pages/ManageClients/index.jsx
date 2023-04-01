@@ -12,6 +12,7 @@ import './styles.css'
 
 export default function ManageClients() {
   const id = getParam("id")
+  const isRegistryClient = !id
   const navigate = useNavigate()
 
   const formMethods = useForm({
@@ -72,7 +73,7 @@ export default function ManageClients() {
 
   return (
     <div className="client-details-container">
-      <Header />
+      <Header title={isRegistryClient ? "Novo Registro" : "Editar Registro"}/>
       <form className="client-details-form" onSubmit={formMethods.handleSubmit(handleSubmit)}>
         <div className="client-details-wrapper">
           <div className="client-inputs-wrapper">

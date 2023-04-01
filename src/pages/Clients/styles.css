@@ -1,5 +1,5 @@
 table {
-  width: 1280px;
+  width: 100%;
   border-collapse: collapse;
   min-width: 600px;
 }
@@ -10,26 +10,37 @@ table {
     color: black;
     font-size: 0.875rem;
     line-height: 1.5;
-  }
-
-  tr th:first-child {
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
+    padding: 8px 0;
+    vertical-align: middle;
   }
 
   td {
     border-bottom: 1px solid;
     border-color: mediumpurple;
     text-align: left;
+    padding: 4px 2px;
+    vertical-align: middle;
   }
 
   tr td:first-child {
-    border-left:2px solid;
+    border-left:1px solid;
     border-color: mediumpurple;
     }
 
   tr td:last-child {
-    border-right:2px solid;
+    border-right:1px solid;
     border-color: mediumpurple;
     }
 
+  
+  .icon-button {
+    background-color: transparent;
+    border: none;
+  }
+.td-icon {
+  text-align: center;
+}
+
+.client-list-container {
+  padding: 0 24px;
+}

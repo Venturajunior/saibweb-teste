@@ -7,6 +7,12 @@
   background-color: palevioletred;
   width: 100%;
   border: 0;
-  padding: 16px 40px;
+  padding: 8px 32px;
   margin-bottom: 24px;
+  border-bottom: 1px solid #aaa;
+}
+
+.component-header-container  button {
+  background-color: transparent;
+  border: none
 }
