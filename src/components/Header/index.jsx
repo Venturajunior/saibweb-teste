@@ -1,17 +1,16 @@
 import { Link } from 'react-router-dom'
+import { IoChevronBackCircleOutline } from 'react-icons/io5'
 import './styles.css'
-
-import BackButton  from '../../assets/back.png'
 
 export default function Header() {
   return (
-    <div className="header">
+    <div className="component-header-container">
       <Link to="/">
-                <button>
-                  <img src={BackButton} alt="" />
-                </button>
+        <button>
+          <IoChevronBackCircleOutline size={32} />
+        </button>
       </Link>
-      <h1>Header</h1>
+      <h3>Header</h3>
     </div>
   )
 }

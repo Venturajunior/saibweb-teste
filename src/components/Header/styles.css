@@ -1,11 +1,12 @@
-.header {
+.component-header-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  
-  background-color: indianred;
-  width: 1280px;
+  gap: 8px;
+
+  background-color: palevioletred;
+  width: 100%;
   border: 0;
-  padding: 1rem;
-  margin-bottom: 16px;
+  padding: 16px 40px;
+  margin-bottom: 24px;
 }

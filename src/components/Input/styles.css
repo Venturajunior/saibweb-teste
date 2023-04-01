@@ -1,0 +1,17 @@
+.input-component {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+}
+
+.input-component > input {
+  border: 1px solid lightgray;
+  padding: 4px 2px 2px 2px;
+}
+
+.component-input-error {
+  font-size: 12px;
+  color: red;
+  padding-left: 4px;
+}
